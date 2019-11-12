@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 0 1em;
 }
 
 .title {
@@ -27,21 +27,30 @@ section div {
 }
 
 img {
+  display: block;
   width: 100px;
 }
 
 .quest {
   background-color: #f2f2f2;
+  border-left: solid #333;
+  border-width: 1px;
 }
 
 .knight {
   background-color: #e2e2e2;
+  border-left: solid #999;
+  border-width: 1px;
 }
 
 .dragon {
   background-color: #ccc;
+  border-left: solid #999;
+  border-width: 1px;
 }
 
 .laser {
   background-color: #aaa;
+  border-left: solid #999;
+  border-width: 1px;
 }
