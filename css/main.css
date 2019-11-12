@@ -5,3 +5,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+section {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+section div {
+  width: 33.3333%;
+}
