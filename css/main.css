@@ -39,18 +39,30 @@ img {
 
 .knight {
   background-color: #e2e2e2;
-  border-left: solid #999;
+  border-left: solid #333;
   border-width: 1px;
 }
 
 .dragon {
   background-color: #ccc;
-  border-left: solid #999;
+  border-left: solid #333;
   border-width: 1px;
 }
 
 .laser {
   background-color: #aaa;
-  border-left: solid #999;
+  border-left: solid #333;
   border-width: 1px;
+}
+
+.btn-small {
+  margin: 0 0 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+list-style-type: none;
 }
