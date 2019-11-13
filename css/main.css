@@ -8,61 +8,98 @@ html {
 
 body {
   margin: 0 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .title {
-  align-items: center;
-  display: flex;
-  font-size: 2rem;
+  text-align: center;
 }
 
-section {
-  align-items: center;
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cards {
   display: flex;
   justify-content: space-around;
 }
 
-section div {
+.cards div {
   width: 33.3333%;
 }
 
 img {
+  margin: 0 auto 1.5rem;
+  padding: .75rem;
   display: block;
   width: 100px;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.names {
+  font-style: italic;
+  padding: 0;
 }
 
 .quest {
   background-color: #f2f2f2;
   border-left: solid #333;
   border-width: 1px;
+  padding: 1rem;
 }
 
 .knight {
   background-color: #e2e2e2;
   border-left: solid #333;
   border-width: 1px;
+  padding: 1rem;
 }
 
 .dragon {
   background-color: #ccc;
   border-left: solid #333;
   border-width: 1px;
+  padding: 1rem;
 }
 
 .laser {
   background-color: #aaa;
   border-left: solid #333;
   border-width: 1px;
+  padding: 1rem;
+}
+
+div a {
+  color: #fff;
+  padding: .4em .75em .3em;
+  padding-bottom: .6em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  display: inline;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .btn-small {
-  margin: 0 0 1.5rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-list-style-type: none;
+  font-size: .875rem;
 }
