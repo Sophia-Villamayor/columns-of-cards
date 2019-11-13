@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0 0 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .title {
@@ -22,6 +22,7 @@ h2 {
 
 .cards {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -32,7 +33,7 @@ h2 {
 img {
   margin: 0 auto 1.5rem;
   display: block;
-  width: 100px;
+  width: 25%;
 }
 
 h3 {
@@ -86,6 +87,7 @@ div a {
 p {
   margin: 0;
   padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .btn {
